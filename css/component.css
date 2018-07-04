@@ -1,0 +1,76 @@
+
+
+/* Individual Caption Styles */
+
+/* Caption Style 5 */
+.cs-style-5 figure img,.cs-style-5 figure .video-container {
+	z-index: 10;
+	-webkit-transition: -webkit-transform 0.4s;
+	-moz-transition: -moz-transform 0.4s;
+	transition: transform 0.4s;
+}
+
+.no-touch .cs-style-5 figure:hover img,
+.cs-style-5 figure.cs-hover img,
+.no-touch .cs-style-5 figure:hover .video-container,
+.cs-style-5 figure.cs-hover .video-container  {
+	-webkit-transform: scale(0.55);
+	-moz-transform: scale(0.55);
+	-ms-transform: scale(0.55);
+	transform: scale(0.55);
+}
+
+.cs-style-5 figcaption {
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	-webkit-transform: scale(0.7);
+	-moz-transform: scale(0.7);
+	-ms-transform: scale(0.7);
+	transform: scale(0.7);
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.4s;
+	transition: transform 0.4s, opacity 0.4s;
+}
+
+.no-touch .cs-style-5 figure:hover figcaption,
+.cs-style-5 figure.cs-hover figcaption {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+
+.work-button {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+
+.cs-style-5 h3{
+	line-height: 2.5rem;
+}
+
+
+@media screen and (max-width: 31.5em) {
+	.cs-style-5 figure a {margin-left: 10px;
+		margin-right: 10px;
+        bottom: 12px;
+    right: 0;
+    left: 0;
+}
+	.grid figcaption h3{
+			text-align: center!important;
+		}
+	.grid {
+		padding: 10px 10px 100px 10px;
+	}
+	.grid li {
+		width: 100%;
+		min-width: 200px;
+	}
+}

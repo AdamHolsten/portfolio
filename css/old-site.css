@@ -1,0 +1,1267 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline
+}
+
+html {
+    line-height: 1
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+caption,
+th,
+td {
+    text-align: left;
+    font-weight: normal;
+    vertical-align: middle
+}
+
+q,
+blockquote {
+    quotes: none
+}
+
+q:before,
+q:after,
+blockquote:before,
+blockquote:after {
+    content: "";
+    content: none
+}
+
+a img {
+    border: none
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary {
+    display: block
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #eaeef2;
+}
+
+body p {
+    font-family: 'Open Sans', sans-serif, "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    color: #616263;
+    margin: 0;
+    letter-spacing: .07em;
+    font-size: .9rem;
+    line-height: 1.5rem;
+    padding: 0 0 25px 0
+}
+
+body h1,
+body h2,
+body h4 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #616263;
+    margin: 0
+}
+
+body h1 {
+    line-height: 6rem
+}
+
+body h3 {
+    color: #373737;
+    font-size: 1.8rem;
+    font-family: 'Open Sans', sans-serif, "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    font-weight: 400
+}
+
+body .nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center
+}
+
+body .nav li {
+    display: inline;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 13px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #616263;
+    padding: 5px 0
+}
+
+body a {
+    text-decoration: none;
+    color: #026d92;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase
+}
+
+body .viewSite {
+    border: 3px solid #026d92;
+    padding: 10px;
+    float: left;
+    margin-right: 25px;
+    -webkit-transition: all ease-out .35s;
+    -moz-transition: all ease-out .35s;
+    -o-transition: all ease-out .35s;
+    transition: all ease-out .35s
+}
+
+body .viewSite:hover {
+    background-color: #026d92;
+    color: white
+}
+
+.fullWidth {
+    width: 100%
+}
+
+.innerWidth {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 20px 0
+}
+
+.halfWidth {
+    width: 44%;
+    padding-right: 6%;
+    float: left
+}
+
+.halfWidth:nth-child(even) {
+    width: 50%;
+    padding-right: 0
+}
+
+.thirdWidth {
+    width: 32%;
+    float: left;
+    text-align: center
+}
+
+#logoOverlay {
+    margin: 224px auto;
+    text-align: center;
+    overflow: hidden
+}
+
+h1 {
+    color: white;
+    font-size: 5rem;
+    letter-spacing: .1rem;
+    margin: 0;
+    padding: 17rem 0 0 0
+}
+
+#albumSectionTitleAbout {
+    height: 53px
+}
+
+#albumSectionTitleAbout h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2px;
+    float: left;
+    padding: 5px 4%
+}
+
+#albumSectionTitleAbout h2 .innerWidth {
+    padding: 20px 0 13px 0
+}
+
+#logoColor:hover {
+    background-color: #026d92;
+    background-color: rgba(2, 109, 146, 0.15)
+}
+
+#about {
+    border-top: 1px solid #b9bcbf
+}
+
+#about #headshot {
+    width: 262px;
+    padding: 26px 0 26px 8.771929824561%
+}
+
+#about .innerWidth {
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+#aboutMeText {
+    float: right;
+    width: 61.7%
+}
+
+#aboutMeText .hearMobile {
+    width: 100%
+}
+
+#aboutMeText h3 {
+    padding: 1em 0
+}
+
+.links p {
+    float: left;
+    padding-right: 25px
+}
+
+.links p:nth-child(2) {
+    padding-top: 14px;
+    padding-right: 10px
+}
+
+.links p:nth-child(3) {
+    padding-top: 12px
+}
+
+.contactLink {
+    line-height: 1rem
+}
+
+.projectHeader {
+    background-color: #1e1f22;
+    margin-top: 50px
+}
+
+.projectHeader h2 {
+    color: #eaeef2;
+    padding: 5px 2%;
+    line-height: 2px;
+    font-size: 2rem
+}
+
+.projectHeader .innerWidth {
+    border: none
+}
+
+.projectHeader span {
+    font-family: 'Open Sans', sans-serif, "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    letter-spacing: .03em;
+    font-size: 2rem;
+    font-weight: 100;
+    text-transform: capitalize
+}
+
+#topHeader {
+    margin-top: 0
+}
+
+#henryRaderProject video {
+    opacity: 0.6
+}
+
+#eric {
+    opacity: 0.8 !important
+}
+
+#video-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden
+}
+
+#video-bg>video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+@media (min-aspect-ratio: 16 / 9) {
+    #video-bg>video {
+        height: 300%;
+        top: -100%
+    }
+}
+
+@media (max-aspect-ratio: 16 / 9) {
+    #video-bg>video {
+        width: 300%;
+        left: -100%
+    }
+}
+
+@supports (object-fit: cover) {
+    #video-bg>video {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover
+    }
+}
+
+.projectText {
+    width: 635px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 700px
+}
+
+.projectContainer {
+    -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 90%
+}
+
+.projectContainer .innerWidth {
+    position: relative;
+    height: auto;
+    padding: 0;
+    border: none;
+    z-index: 30
+}
+
+.projectContainer p {
+    color: #ffffff;
+    margin-left: 15.590551181102%;
+    margin-right: 15.590551181102%
+}
+
+.projectContainer h3 {
+    color: #eaeef2;
+    margin-top: 88px;
+    margin-left: 15.590551181102%;
+    margin-right: 15.590551181102%
+}
+
+#henryRaderProject {
+    position: relative;
+    background-color: #101010;
+    height: 800px;
+    overflow: hidden
+}
+
+#henryRaderProject .projectText {
+    background-color: #1e1f22;
+    background-color: rgba(30, 31, 34, 0.8);
+    -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.9);
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: auto
+}
+
+#henryRaderProject .process {
+    padding-bottom: 100px
+}
+
+#ericProject {
+    position: relative;
+    background-color: #101010;
+    height: 800px;
+    overflow: hidden
+}
+
+#ericProject .projectText {
+    background-color: #1e1f22;
+    background-color: rgba(30, 31, 34, 0.8);
+    -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.9);
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: auto
+}
+
+#ericProject .process {
+    padding-bottom: 100px
+}
+
+#cabeProject {
+    background-image: url("../images/cabeBground2.png");
+    -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.9);
+    -moz-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.9);
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.9);
+    overflow: hidden
+}
+
+#cabeProject .projectFloatImage img {
+    width: 550px;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: -5px;
+    -webkit-box-shadow: 0px -1px 12px 0px rgba(50, 50, 50, 0.3);
+    -moz-box-shadow: 0px -1px 12px 0px rgba(50, 50, 50, 0.3);
+    box-shadow: 0px -1px 12px 0px rgba(50, 50, 50, 0.3)
+}
+
+#cabeProject .innerWidth {
+    height: auto
+}
+
+#cabeProject p {
+    color: #616263
+}
+
+#cabeProject h3 {
+    color: #1e1f22;
+    margin-bottom: 1em
+}
+
+#cabeProject .projectText {
+    background-color: transparent !important
+}
+
+#backgroundFit {
+    background-size: 620px !important;
+    background: url("../images/gstopPhones.png") no-repeat 65% 150px;
+    -webkit-transition: all ease-out .35s;
+    -moz-transition: all ease-out .35s;
+    -o-transition: all ease-out .35s;
+    transition: all ease-out .35s
+}
+
+#backgroundFit:hover {
+    background-position: 65% 100px
+}
+
+.projectFloatImage img {
+    width: auto;
+    height: 700px
+}
+
+.projectLogo {
+    width: 100%;
+    border-bottom: 1px solid white;
+    padding: 75px 0 25px 0
+}
+
+#photography {
+    -webkit-box-shadow: inset 1px 5px 250px 113px rgba(0, 0, 0, 0.45);
+    -moz-box-shadow: inset 1px 5px 250px 113px rgba(0, 0, 0, 0.45);
+    box-shadow: inset 1px 5px 250px 113px rgba(0, 0, 0, 0.45)
+}
+
+#photography h2 {
+    color: white
+}
+
+#photography img {
+    width: 330px;
+    height: auto;
+    margin: 0
+}
+
+#photography .innerWidth {
+    padding: 0;
+    text-align: left
+}
+
+#photography .arrow {
+    height: auto;
+    width: 40px;
+    opacity: 0.7
+}
+
+#photography .arrow:hover {
+    opacity: 1.0
+}
+
+.owl-carousel {
+    padding-left: 15px
+}
+
+.right {
+    position: absolute;
+    right: 75px;
+    top: 176px
+}
+
+.left {
+    position: absolute;
+    left: 75px;
+    top: 176px
+}
+
+.imageBox {
+    margin-top: 35px;
+    overflow: hidden;
+    width: 350px;
+    height: 350px;
+    border: solid white 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.imageBox p {
+    margin-top: -47px;
+    text-align: center;
+    color: white;
+    background: rgba(2, 109, 146, 0.5);
+    padding: 10px;
+    z-index: 20;
+    position: relative;
+    -webkit-transition: all ease-out .35s;
+    -moz-transition: all ease-out .35s;
+    -o-transition: all ease-out .35s;
+    transition: all ease-out .35s;
+    font-weight: bold
+}
+
+.imageBox p:hover {
+    background-color: white;
+    color: #026d92
+}
+
+.behanceProjects img {
+    width: 100% !important;
+    height: auto !important
+}
+
+.titleHeader {
+    border-bottom: 1px solid #b9bcbf;
+    border-top: 1px solid #b9bcbf;
+    margin-top: 50px
+}
+
+.titleHeader h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2px;
+    float: left;
+    padding: 5px 2%
+}
+
+#footer {
+    background-color: white;
+    padding-bottom: 25px;
+    margin-bottom: 0;
+    border-top: 1px solid #b9bcbf
+}
+
+#footer p {
+    font-size: 12px;
+    width: 100%;
+    line-height: 2rem
+}
+
+#footer #copyright {
+    font-weight: bold
+}
+
+#aboveTheFold {
+    background: url("../images/fireCroppedFinalBlur.jpg") 50% 0 no-repeat fixed;
+    height: 650px;
+    min-height: 650px;
+    max-height: 650px;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    overflow: hidden
+}
+
+#photography {
+    background: url("../images/grid.jpg") 50% 0 no-repeat fixed;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    overflow: hidden
+}
+
+#photography .blueCover {
+    background-color: #026d92;
+    background-color: rgba(2, 109, 146, 0.8) !important;
+    width: 100%
+}
+
+#logoColor {
+    background: url("../images/logo7.png") no-repeat scroll center center transparent;
+    height: 650px;
+    position: absolute;
+    text-indent: -9999px;
+    top: 0;
+    width: 100%;
+    background-color: #026d92;
+    background-color: rgba(2, 109, 146, 0.8);
+    -webkit-transition: all ease-out .85s;
+    -moz-transition: all ease-out .85s;
+    -o-transition: all ease-out .85s;
+    transition: all ease-out .85s
+}
+
+#contactMe {
+    background: url("../images/contactImageNew.jpg") 50% 500% no-repeat fixed;
+    height: 650px;
+    min-height: 650px;
+    max-height: 650px;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    overflow: hidden
+}
+
+#contactMe p {
+    color: #616263
+}
+
+#contactMe h3 {
+    color: #1e1f22;
+    margin-bottom: 1em
+}
+
+#contactMe .innerWidth {
+    background-color: none
+}
+
+#contactMe .projectText {
+    background-color: #eaeef2;
+    background-color: rgba(255, 255, 255, 0.8)
+}
+
+.hearMobile {
+    width: 437px;
+    margin: 0 auto;
+    padding-bottom: 12.5px
+}
+
+#albumSectionTitleAbout .hearMobile h2 {
+    width: 80% !important
+}
+
+.hearMobile h2 {
+    padding: 10px 0;
+    background-color: #026d92;
+    text-align: center;
+    letter-spacing: .07em;
+    font-size: .9rem;
+    line-height: 1.5rem;
+    color: white;
+    -webkit-transition: all ease-out .35s;
+    -moz-transition: all ease-out .35s;
+    -o-transition: all ease-out .35s;
+    transition: all ease-out .35s
+}
+
+.hearMobile h2:hover {
+    color: #026d92;
+    background-color: white
+}
+
+.process h2 {
+    border: 3px solid #026d92;
+    background-color: transparent;
+    color: #026d92;
+    -webkit-transition: all ease-out .35s;
+    -moz-transition: all ease-out .35s;
+    -o-transition: all ease-out .35s;
+    transition: all ease-out .35s
+}
+
+.process h2:hover {
+    background-color: #026d92;
+    color: white
+}
+
+.tablet {
+    display: none
+}
+
+#photography {
+    display: block
+}
+
+.moreProjects {
+    display: none
+}
+
+.mobile {
+    display: none
+}
+
+#tagline {
+    padding-left: 29% !important
+}
+
+@media only screen and (max-width: 1150px) {
+    #owl-demo {
+        display: block !important
+    }
+    #owl-demo2 {
+        display: block !important
+    }
+    .tablet {
+        display: block
+    }
+    .videoThumb {
+        width: 437px;
+        margin-right: 15.590551181102%;
+        margin-left: 15.590551181102%
+    }
+    #ericProject {
+        height: auto;
+        background: url("../images/ericBground.jpg") no-repeat center left;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover
+    }
+    #ericProject .process {
+        padding-bottom: 75px
+    }
+    #ericProject .projectText {
+        position: static;
+        margin: 0 auto
+    }
+    #henryRaderProject {
+        height: auto;
+        background: url("../images/henryRaderBground.jpg") no-repeat center left;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover
+    }
+    #henryRaderProject .process {
+        padding-bottom: 75px
+    }
+    #henryRaderProject .projectText {
+        position: static;
+        margin: 0 auto
+    }
+    #contactMe .projectText {
+        position: static;
+        margin: 0 auto
+    }
+    .tabletThumbGallery {
+        margin-left: 15.590551181102%
+    }
+    .tabletThumbGallery img {
+        width: 137.33px;
+        margin-top: 12.5px;
+        margin-bottom: 25px;
+        margin-right: 2.057718171627%;
+        float: left
+    }
+    #about #headshot {
+        width: 262px;
+        padding: 26px 0 0 46px
+    }
+    #albumSectionTitleAbout h2 {
+        padding: 5px 2.5%
+    }
+    .fullWidth {
+        overflow: hidden
+    }
+    #video-bg {
+        display: none
+    }
+    .innerWidth {
+        padding-left: 5%;
+        padding-right: 5%
+    }
+    .non-mobile {
+        display: block
+    }
+    .non-mobile-inline {
+        display: inline
+    }
+    .mobile {
+        display: none
+    }
+    #cabeImage {
+        display: none
+    }
+    #cabeProject .projectText {
+        position: static;
+        margin: 0 auto;
+        height: 250px !important;
+        padding-top: 88px
+    }
+    #cabeProject .projectText h3 {
+        margin-top: 0
+    }
+    #contactMe .projectText {
+        padding-top: 10px
+    }
+    #contactMe {
+        background-image: none
+    }
+    #contactMe .innerWidth {
+        background: url("../images/fireCroppedFinalBlur.jpg") 50% 0 no-repeat !important
+    }
+    #cabeProject {
+        background-image: url("../images/cabeBground.jpg") !important
+    }
+    #cabeProject .projectText {
+        background-color: #eaeef2 !important;
+        background-color: rgba(255, 255, 255, 0.8) !important;
+        padding-bottom: 135px;
+        height: 600px
+    }
+    .right {
+        right: 10px !important
+    }
+    .left {
+        left: 10px !important
+    }
+    .imageBox {
+        width: 300px !important;
+        height: 300px !important;
+        margin-left: 7.215007215007%
+    }
+    .imageBox img {
+        width: 280px !important;
+        height: 280px !important
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .projectHeader h2,
+    .innerWidth h2 {
+        text-align: center
+    }
+    .non-mobile-inline {
+        display: none
+    }
+    #headshot {
+        display: none
+    }
+    #aboutMeText {
+        width: 100%
+    }
+    #albumSectionTitleAbout h2 {
+        font-size: 1.5rem;
+        padding: 5px 15px
+    }
+    .non-mobile {
+        display: block
+    }
+    .mobile {
+        display: none
+    }
+    #photography .arrow {
+        width: 20px !important
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    #photography {
+        display: none
+    }
+    .moreProjects {
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        display: block;
+        background-color: #026d92;
+        position: static
+    }
+    .moreProjects .imageBox {
+        margin-top: 25px;
+        float: left !important;
+        width: 48% !important;
+        height: auto !important
+    }
+    .moreProjects .imageBox img {
+        width: 100%% !important;
+        height: auto !important
+    }
+    .moreProjects .imageBox:nth-child(1) {
+        margin: 50px 4% 0 0
+    }
+    .moreProjects .imageBox:nth-child(2) {
+        margin: 50px 0 0 0
+    }
+    .moreProjects .imageBox:nth-child(3) {
+        margin: 25px 4% 50px 0
+    }
+    .moreProjects .imageBox:nth-child(4) {
+        margin: 25px 0 50px 0
+    }
+    .videoThumb {
+        width: 86.000716075904%;
+        margin-right: 7%;
+        margin-left: 7%
+    }
+    #henryRaderProject,
+    #ericProject {
+        height: auto
+    }
+    #henryRaderProject .projectLogo,
+    #ericProject .projectLogo {
+        width: 314.563px;
+        height: auto
+    }
+    #henryRaderProject p:nth-child(1),
+    #ericProject p:nth-child(1) {
+        text-align: center
+    }
+    #henryRaderProject p:nth-child(2),
+    #henryRaderProject p:nth-child(3),
+    #henryRaderProject p:nth-child(4),
+    #ericProject p:nth-child(2),
+    #ericProject p:nth-child(3),
+    #ericProject p:nth-child(4) {
+        text-align: left
+    }
+    .tabletThumbGallery {
+        width: 86.000716075904%;
+        margin-right: 7%;
+        margin-left: 7%
+    }
+    .tabletThumbGallery img {
+        width: 31.945600888149%;
+        margin-right: 0;
+        margin-left: 0
+    }
+    #mid {
+        margin-right: 2.057718171627% !important;
+        margin-left: 2.057718171627% !important
+    }
+    #aboutMeText {
+        width: 100%
+    }
+    #cabeProject .projectText {
+        height: 400px !important
+    }
+    .hearMobile {
+        width: 87%
+    }
+    #logoColor {
+        background: url("../images/logo6.png") no-repeat scroll center center transparent;
+        height: 650px;
+        position: static;
+        margin-top: -175px;
+        background-size: 200px;
+        width: 100%;
+        background-color: #026d92
+    }
+    #albumSectionTitleAbout li {
+        font-size: 1.2rem
+    }
+    .links p {
+        float: none;
+        width: 100%;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+        margin-left: 0 !important;
+        margin-left: 0 !important
+    }
+    .links a {
+        text-align: center;
+        width: 100%;
+        padding-right: 0 !important;
+        margin-right: 0 !important
+    }
+    body .viewSite {
+        padding: 10px 0 10px 0 !important
+    }
+    .projectHeader h2,
+    .titleHeader h2 {
+        font-size: 1.2rem
+    }
+    .non-mobile {
+        display: none
+    }
+    .projectContainer h3 {
+        margin-left: 7%;
+        margin-right: 7%
+    }
+    .mobile {
+        display: block
+    }
+    #aboveTheFold {
+        background-image: none;
+        background-color: #026d92;
+        height: 300px;
+        min-height: 300px;
+        max-height: 300px;
+        margin: 0 auto;
+        width: 100%;
+        position: relative;
+        overflow: hidden
+    }
+    #aboutMeText {
+        padding-bottom: 2em
+    }
+    .projectContainer {
+        height: auto !important
+    }
+    .projectContainer p {
+        margin-left: 7%;
+        margin-right: 7%
+    }
+    #contactMe {
+        height: auto !important;
+        background-color: transparent;
+        background-image: none;
+        min-height: auto;
+        max-height: auto;
+        position: static;
+        margin: 0 auto
+    }
+    #cabeProject .projectText {
+        padding-top: 44px !important
+    }
+    #contactMe .projectText {
+        padding-top: 2rem !important
+    }
+    #cabeProject {
+        height: 473px !important;
+        background-image: url("../images/cabeBground.jpg")
+    }
+    #photography {
+        background-image: none;
+        background-color: #026d92
+    }
+    #backgroundFit {
+        background-position: 50% 100px
+    }
+    #backgroundFit:hover {
+        background-position: 50% 100px
+    }
+    #cabeProject .projectText,
+    .projectText {
+        width: 95% !important;
+        margin-right: 2.5%;
+        margin-left: 2.5%
+    }
+    .imageBox {
+        width: 300px !important;
+        height: 300px !important;
+        margin-left: 7.215007215007%
+    }
+    .imageBox img {
+        width: 280px !important;
+        height: 280px !important
+    }
+    .right {
+        right: 10px !important
+    }
+    .left {
+        left: 10px !important
+    }
+    #hearMobile {
+        display: block
+    }
+    .imageBox {
+        margin-left: 23.372287145242%
+    }
+    .imageBox img {
+        width: 100% !important
+    }
+    #about .innerWidth {
+        padding-top: 25px;
+        padding-bottom: 25px
+    }
+    .projectContainer h3 {
+        padding-top: 1em !important;
+        margin-top: 0
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #henryRaderProject .projectLogo,
+    #ericProject .projectLogo {
+        width: 100%
+    }
+    .moreProjects {
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        display: block;
+        background-color: #026d92;
+        position: static;
+        padding-bottom: 50px;
+        padding-top: 25px
+    }
+    .moreProjects .imageBox {
+        float: none !important;
+        width: 87% !important;
+        height: auto !important;
+        margin: 0 auto !important;
+        margin-top: 25px !important
+    }
+    .moreProjects .imageBox img {
+        width: 100%% !important;
+        height: auto !important
+    }
+    .moreProjects .imageBox:nth-child(1) {
+        margin: 50px 4% 0 0
+    }
+    .moreProjects .imageBox:nth-child(2) {
+        margin: 50px 0 0 0
+    }
+    .moreProjects .imageBox:nth-child(3) {
+        margin: 25px 4% 50px 0
+    }
+    .moreProjects .imageBox:nth-child(4) {
+        margin: 25px 0 50px 0
+    }
+}
+
+#owl-demo .item {
+    background: #3fbf79;
+    padding: 30px 0px;
+    margin: 10px;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center
+}
+
+.customNavigation {
+    text-align: center
+}
+
+.customNavigation a {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+.pace .pace-progress {
+    background: white;
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    height: 2px;
+    -webkit-transition: width 1s;
+    -moz-transition: width 1s;
+    -o-transition: width 1s;
+    transition: width 1s
+}
+
+.pace-inactive {
+    display: none
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table
+}
+
+.clearfix:after {
+    clear: both
+}
+
+.clearfix {
+    *zoom: 1
+}
