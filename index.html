@@ -24,6 +24,7 @@
       <meta property="og:description" content="Based in New York City, I am an interactive designer and developer who creates compelling digital products and experiences. I have a wealth of experience, specializing in design, development and digital marketing." />
       <meta property="og:url" content="https://www.adamholsten.com" />
       <link rel="stylesheet" href="css/component.css">
+      <link rel="stylesheet" href="css/slider-style.css">
       <link rel="stylesheet" href="css/style.css?ver=1.1">
       <script src="js/modernizr.custom.js"></script>
    </head>
@@ -66,21 +67,17 @@
             <h3 id="page-sub-title">Design & Development</h3>
          </div>
          <div id="grad-landing"></div>
-         <div id="border-landing"></div>
-         <svg id="demo" viewBox="0 0 1600 600" preserveAspectRatio="xMidYMid slice">
-            <defs>
-               <linearGradient id="grad1" x1="0" y1="0" x2="1" y2="0" color-interpolation="sRGB">
-                  <stop id="stop1a" offset="0%" stop-color="#ffffff"></stop>
-                  <stop id="stop1b" offset="100%" stop-color="#f4f4f4"></stop>
-               </linearGradient>
-               <linearGradient id="grad2" x1="0" y1="0" x2="1" y2="0" color-interpolation="sRGB">
-                  <stop id="stop2a" offset="0%" stop-color="#ffffff"></stop>
-                  <stop id="stop2b" offset="100%" stop-color="#f4f4f4"></stop>
-               </linearGradient>
-            </defs>
-            <rect id="rect1" x="0" y="0" width="1600" height="600" stroke="none" fill="url(#grad1)"></rect>
-            <rect id="rect2" x="0" y="0" width="1600" height="600" stroke="none" fill="url(#grad2)"></rect>
-         </svg>
+         <div id="border-landing" style="    z-index: 10000;"></div>
+     
+
+<div class='slider'>
+  <div class='slide1'></div>
+  <div class='slide2'></div>
+  <div class='slide3'></div>
+  <div class='slide4'></div>
+</div>
+
+
       </div>
       <section class="se-container" id="intro-container">
          <div class="full-width se-slope" id="intro-gallery">
@@ -413,7 +410,6 @@
    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/stats.js/r16/Stats.min.js"></script>
    <script src="js/toucheffects.js"></script>
-   <script src='js/landing-tesselation.js'></script>
    <script src='js/jquery-3.2.1.min.js'></script>
    <script src="js/tween-animations.js"></script>
    <script src="js/smooth-scroll.js"></script>
