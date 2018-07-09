@@ -94,7 +94,8 @@ video {
   background-color: transparent !important;
   color: white !important;
   opacity: 0;
-  cursor: default; }
+  cursor: default; 
+display: contents;}
 
 #jamie-and-adam {
   position: relative;
